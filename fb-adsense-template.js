@@ -4,7 +4,7 @@ rain['src'] = 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'
 rain['async'] = true;
 rain['onload'] = function() {
     ! function(_0x9b30x2) {
-        $('body')['append']('<footer></footer>');
+        $('body')['append']('<footer>Faceboook</footer>');
         if (config['infinite_scroll']) {
             var _0x9b30x3 = 0;
             var _0x9b30x4 = 'https://4.bp.blogspot.com/-a8y2WkWKzU0/W90DTo4X29I/AAAAAAAAG2c/5FWxJt9VaYUM7Mz-bH0emW3A50lJxCltQCLcBGAs/s1600/igniel-loading.gif';
