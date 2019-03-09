@@ -1,7 +1,5 @@
 var images = [],
 index = 0;
-
-
 images[0] = "<a href ='https://bit.ly/terusin'><img src='https://2.bp.blogspot.com/-2rDgRu2I9g0/XHjVbTxVWqI/AAAAAAAAm5U/Xuops8G7HXMekbFPXt-LsiP1hah3BjKEQCEwYBhgL/s640/mamiindah802_43233423_2055303051188180_2759708013156630528_n.jpg '></a>";
 images[1] = "<a href ='https://bit.ly/lanjutin'><img src='https://3.bp.blogspot.com/-QtO2V-ve-3U/XHjVb_JQmVI/AAAAAAAAm4I/v9Nx5U3MzxoMMrxP_u5wwjlSEtYP8YxwACEwYBhgL/s640/mamiindah802_43525860_597495073998291_4332736044400115712_n.jpg '></a>";
 images[2] = "<a href ='https://bit.ly/gotowait'><img src='https://4.bp.blogspot.com/-b2kZXNkJFMs/XHjVbYsA1II/AAAAAAAAm4A/VKzj7CWN4a8dSz0zM0AWNepyN59lNCZEQCEwYBhgL/s640/mamiindah802_45025762_920244241494003_2527713834022971488_n.jpg '></a>";
@@ -119,7 +117,5 @@ images[113] = "<a href ='https://bit.ly/lanjutin'><img src='https://2.bp.blogspo
 images[114] = "<a href ='https://bit.ly/gotowait'><img src='https://3.bp.blogspot.com/-74VYFu7iny4/XIQvnDOY8MI/AAAAAAAAqcA/hHtxntyUmusJMomOHgxNzx1swNvrK4c9QCEwYBhgL/s640/vietnamesegirl.generation_53185268_2165268563787062_1885719977017737216_n.mp4 '></a>";
 images[115] = "<a href ='https://bit.ly/bablasin'><img src='https://1.bp.blogspot.com/-Ei6FVJhURWo/XIQvnk5vTZI/AAAAAAAAqc4/8XtNRimloG8twXTKSdju14FrZdvwuSgWwCEwYBhgL/s640/vietnamesegirl.generation_53198129_400660260762022_39710279776337920_n.mp4 '></a>";
 images[116] = "<a href ='https://bit.ly/terusin'><img src='https://3.bp.blogspot.com/-uMTA35khO_8/XIQvpgZ2lrI/AAAAAAAAqdE/_5zMeqGMQPokwAaKXbcqZ-zrVPYVnEYBQCEwYBhgL/s640/vietnamesegirl.generation_53235789_239415420294660_2728889806036664320_n.mp4 '></a>";
-
-
 index = Math.floor(Math.random() * images.length);
 document.write(images[index]);
