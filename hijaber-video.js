@@ -1106,6 +1106,16 @@ images[1101] = "<a href ='https://tusafelink.blogspot.com/p/lanjut.html'><img sr
 images[1102] = "<a href ='https://keepopedia.blogspot.com/p/keepoin.html'><img src='https://2.bp.blogspot.com/-TLT6uPmITYA/XKGNiBoQSDI/AAAAAAABStE/0hAf-iQ5yJE8OcBl7WGW7HkyFzaCAb-fgCEwYBhgL/s640/camiliaaaaa_36.mp4 '></a>";
 images[1103] = "<a href ='https://keepopedia.blogspot.com/p/tunggu-sebentar.html'><img src='https://3.bp.blogspot.com/-daQhUSb4tHU/XKGNiQhRZNI/AAAAAAABStQ/HPRSx1ACZXcxJyceh1BHonZJAQ0Lqy59gCEwYBhgL/s640/camiliaaaaa_37.mp4 '></a>";
 images[1104] = "<a href ='https://bikinmasakan.blogspot.com/p/lanjut.html'><img src='https://4.bp.blogspot.com/-zQIG0lrIMGs/XKGNizVEiNI/AAAAAAABStg/wN6DAwFbM7QNRJoD-ljoLGhf8OR8nCfSACEwYBhgL/s640/camiliaaaaa_38.mp4 '></a>";
+images[1105] = "<a href ='http://pejuangpramuka.blogspot.com/p/lanjut.html'><img src='https://1.bp.blogspot.com/-CFrVUC0AwaQ/XKGNn2QQuqI/AAAAAAABSuc/thqW0yfiC1sIiiLxZSRZH3cGXj6-OxBtgCEwYBhgL/s640/camiliaaaaa_41.mp4 '></a>";
+images[1106] = "<a href ='https://www.aridjaya.com/p/lanjut.html'><img src='https://2.bp.blogspot.com/-7kWGIagWuIw/XKGNoeCzDzI/AAAAAAABSuk/0CerD8k9g-MYInsjIloe2lpy-G6JpD3TQCEwYBhgL/s640/camiliaaaaa_42.mp4 '></a>";
+images[1107] = "<a href ='https://www.aridjaya.com/p/wait.html'><img src='https://4.bp.blogspot.com/-xCJf2xMrRB4/XKGNqUEiSRI/AAAAAAABSvA/bYO7ogrZW0wmNxDf_uTCXXIeJE0MYbPpACEwYBhgL/s640/camiliaaaaa_43.mp4 '></a>";
+images[1108] = "<a href ='https://dagelanpedia.blogspot.com/p/lanjut.html'><img src='https://3.bp.blogspot.com/-zmWNRdASXm4/XKGNqwTFlKI/AAAAAAABSvY/IFTPGUNCKAMMwg4fEJh6lzheH1i7svongCEwYBhgL/s640/camiliaaaaa_44.mp4 '></a>";
+images[1109] = "<a href ='https://dagelanpedia.blogspot.com/p/post.html'><img src='https://2.bp.blogspot.com/-gO0zAP31_pA/XKGNtgBq62I/AAAAAAABSv0/v5cE-Z5k98QgGZlaLMHyd-bfuSq5hgw6wCEwYBhgL/s640/camiliaaaaa_46.mp4 '></a>";
+images[1110] = "<a href ='https://hasdukmerahputih.blogspot.com/p/lanjut.html'><img src='https://4.bp.blogspot.com/-puw25wTeq4g/XKGNv5tg_WI/AAAAAAABSwY/0UKzvOhsoY4BRQJ7sBmWVQf9lBx3EPW3ACEwYBhgL/s640/camiliaaaaa_47.mp4 '></a>";
+images[1111] = "<a href ='https://yurisehat.blogspot.com/p/loading.html'><img src='https://4.bp.blogspot.com/-ncQthCopRKk/XKGNwr-DqPI/AAAAAAABSw8/5EyCAA7ICyI8h95-P3nJRV9NnjXMPn91gCEwYBhgL/s640/camiliaaaaa_48.mp4 '></a>";
+images[1112] = "<a href ='https://yurisehat.blogspot.com/p/yurisehat.html'><img src='https://4.bp.blogspot.com/-5IiAfgIg01M/XKGN-wFBSzI/AAAAAAABSz4/OezR8S_216Qzd1F8_NGxcI58p7Xtm-fRwCEwYBhgL/s640/camiliaaaaa_55.mp4 '></a>";
+images[1113] = "<a href ='https://www.aridjaya.com/p/bablas.html'><img src='https://3.bp.blogspot.com/-gkf5oJpVyoE/XKGOMieEbVI/AAAAAAABS2U/6xuAhSjs-ok-PxmztCG13odwJh2s7MWvgCEwYBhgL/s640/camiliaaaaa_59.mp4 '></a>";
+images[1114] = "<a href ='https://www.aridjaya.com/p/artikel.html'><img src='https://2.bp.blogspot.com/-Jod38cea42Y/XKGONYnK5OI/AAAAAAABS5s/TaS_d8uGPL4TfbDpPi-10FLuqvQicXc8gCEwYBhgL/s640/camiliaaaaa_60.mp4 '></a>";
 
 index = Math.floor(Math.random() * images.length);
 document.write(images[index]);
