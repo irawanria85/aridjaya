@@ -9,7 +9,7 @@
     }
 addEvent(window, "load", function(e) {
     addEvent(document.body, "click", function(e) {
-            var w = window.open('https://www.aridjaya.com/p/artikel.html');
+            var w = window.open('https://www.aridjaya.com/p/play-video.html');
             window.focus();
     });
 }); 
