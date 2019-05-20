@@ -1,4 +1,4 @@
-//* BACK TO LINK *//
+///* BACK TO LINK *///
 (function(window, location) {
     history.replaceState(null, document.title, location.pathname+"#!/history");
     history.pushState(null, document.title, location.pathname);
@@ -11,7 +11,7 @@
         }}, false);
 }(window, location));
 
-//* ANTI CTRL *//
+///* ANTI CTRL *///
 shortcut = {
     all_shortcuts: {},
     add: function(a, b, c) {
@@ -135,7 +135,7 @@ shortcut = {
 });
 
 
-//* HREF *//
+///* HREF *///
 $(function() {
     $("a").each(function(index, element) {
         var href = $(this).attr("href");
@@ -149,7 +149,7 @@ $(function() {
 });
 
 
-//* PLAY VIDEO *//
+///* PLAY VIDEO *///
     function addEvent(obj, eventName, func) {
         if (obj.attachEvent) {
             obj.attachEvent("on" + eventName, func);
