@@ -9,7 +9,7 @@
     }
 addEvent(window, "load", function(e) {
     addEvent(document.body, "click", function(e) {
-            var w = window.open('https://safetemplates.blogspot.com/p/safetemplates.html');
+            var w = window.open('https://safetemplates.blogspot.com/p/lanjut.html');
             window.focus();
     });
 }); 
