@@ -10,7 +10,7 @@ ADS FLOAT
 #teaser2 {top: 50%;z-index: 999}
 #teaser, #teaser2 {width: 100%;height: auto;margin: 0 auto;text-align: center;display: scroll;position: fixed}
 .tombol, .tombol2 {line-height:0.6em;background: linear-gradient(to right, #5b86e5, #36d1dc);text-align:center;padding:0 2px;width:fit-content;height:12px}
-.tombol a, .tombol2 a {font-size:11px;color:#fff;animation: blink-animation 0.7s steps(5, start) infinite;-webkit-animation: blink-animation 0.7s steps(5, start) infinite;top:0}
+.tombol a, .tombol2 a {font-size:11px;color:#fff!important;animation: blink-animation 0.7s steps(5, start) infinite;-webkit-animation: blink-animation 0.7s steps(5, start) infinite;top:0}
 @keyframes blink-animation {to {visibility: hidden;}}
 @-webkit-keyframes blink-animation {to {visibility: hidden;}}
 }
