@@ -27,7 +27,7 @@ images[22] = "<img src='https://1.bp.blogspot.com/-6UUSQEpi2d8/XRmx-gR350I/AAAAA
 images[23] = "<img src='https://1.bp.blogspot.com/-7fcdxU3iJdc/XRmydcn4tnI/AAAAAAAEVJU/bcpNJZuus9ssDiWMjZYlnTmE5hLZt1rmwCLcBGAs/s640/syantik_hits_93.jpg'/>";
 images[24] = "<img src='https://1.bp.blogspot.com/-7nLAfXIG0MQ/XRm1ddQmb_I/AAAAAAAEVTI/nu9hRgAFO9EoStbFejmJ2nybaJszpb0SQCLcBGAs/s640/galeri.wanitasukses_47584559_285753805440437_1018520738962956044_n.jpg'/>";
 images[25] = "<img src='https://1.bp.blogspot.com/-86Zpdmbat3Q/XRm1aQY8QMI/AAAAAAAEVSo/xsIqvw4s9kE2t1_HYoPnxLePxzXn4gbpgCLcBGAs/s640/galeri.wanitasukses_46570050_715234305522219_5419865071762646483_n.jpg'/>";
-images[26] = "<img src='https://1.bp.blogspot.com/-8BfID-ExDdY/XRmusDFgIHI/AAAAAAAEU2A/K6e6-JPNIVQp9jaGNTAmDBJ83yyLk17UACLcBGAs/s640/2019-04-14%2B21.21.42%2B2021920289612487422_5758029071.jpg 507" '/>";
+images[26] = "<img src='https://1.bp.blogspot.com/-8BfID-ExDdY/XRmusDFgIHI/AAAAAAAEU2A/K6e6-JPNIVQp9jaGNTAmDBJ83yyLk17UACLcBGAs/s640/2019-04-14%2B21.21.42%2B2021920289612487422_5758029071.jpg'/>";
 images[27] = "<img src='https://1.bp.blogspot.com/-8ERvrOadYd4/XRmuqzkadFI/AAAAAAAEU1w/I1B9S9ABhgQBR7lZBFfp_3lHh7060YgDwCLcBGAs/s640/2019-04-10%2B19.57.23%2B2018978747553739063_5758029071.jpg'/>";
 images[28] = "<img src='https://1.bp.blogspot.com/-8rtu8rYmxro/XRm1SFJbp_I/AAAAAAAEVRE/EZm7nD2Wduoyf26RbjObOTfS06la7-oEQCLcBGAs/s640/galeri.wanitasukses_40947910_532040833886094_5309246234055411284_n.jpg'/>";
 images[29] = "<img src='https://1.bp.blogspot.com/-9uZg1qP2Q8s/XRm4yW4FiDI/AAAAAAAEVWc/ESWYnLN2XQ4l6m4S_c3XIQXn70Lu6Eg3wCLcBGAs/s640/2018-12-02%2B03.10.34%2B1924975930381799633_8017169373.jpg'/>";
@@ -151,7 +151,7 @@ images[146] = "<img src='https://2.bp.blogspot.com/-45m3od3p26I/XRmr3iQlo6I/AAAA
 images[147] = "<img src='https://2.bp.blogspot.com/-5lDUYDJKJ4Q/XRmvFS1YpkI/AAAAAAAEU6Y/DWqAyEFFcqICnpSNUvIegCBQS3WWKTVmQCLcBGAs/s640/nissa.mandaa_46125419_2016277871782230_4779429791072385849_n.jpg'/>";
 images[148] = "<img src='https://2.bp.blogspot.com/-6B8aQ9p3cjE/XRm1L1Alk_I/AAAAAAAEVP0/De-EpLqf3GwaX_1KIs_tMVT7wQSQDbalQCLcBGAs/s640/galeri.wanitasukses_36725633_278593739556159_6368754106974076928_n.jpg'/>";
 images[149] = "<img src='https://2.bp.blogspot.com/-6TAmCc6qYPE/XRmupUD7PMI/AAAAAAAEU1Y/uBe73Qhg2voKLUpATecjPeLLn9xLp3TqwCLcBGAs/s640/2019-04-05%2B17.50.50%2B2015291174121737419_5758029071.jpg'/>";
-images[150] = "<img src='https://2.bp.blogspot.com/-6Unfra-vNLw/XRmyC1xmffI/AAAAAAAEVEg/QT5h1gnLStYkLV_soiCSIaBTHl4LTmr9ACLcBGAs/s640/syantik_hits_173.jpg 600" '/>";
+images[150] = "<img src='https://2.bp.blogspot.com/-6Unfra-vNLw/XRmyC1xmffI/AAAAAAAEVEg/QT5h1gnLStYkLV_soiCSIaBTHl4LTmr9ACLcBGAs/s640/syantik_hits_173.jpg'/>";
 images[151] = "<img src='https://2.bp.blogspot.com/-6VyKQfm-VnU/XRmyN8XuBTI/AAAAAAAEVGc/c0GZB8n0y1YOP71jaDU6lMaSzQWnKQvCQCLcBGAs/s640/syantik_hits_22.jpg'/>";
 images[152] = "<img src='https://2.bp.blogspot.com/-9ekW94k0zbU/XRm1TqQP5sI/AAAAAAAEVRY/TE3_p5yjGi85njCSsYbH2scj5bA-ZAD5wCLcBGAs/s640/galeri.wanitasukses_42426494_485453108600464_8220452062356379419_n.jpg'/>";
 images[153] = "<img src='https://2.bp.blogspot.com/-9Pma0cZN844/XRmvx6F7XiI/AAAAAAAEU-I/wgjICVoNnbwH6UVE2tMYDattU5kgT4ScQCLcBGAs/s640/41412326_269648587012044_1960019293360531492_n.jpg'/>";
