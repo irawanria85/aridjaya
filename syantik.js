@@ -1,7 +1,5 @@
-
 var images = [],
     index = 0;
-
 
 images[0] = "<img src='https://1.bp.blogspot.com/-_BKMAz0Clxw/XRmu_9DNzTI/AAAAAAAEU5U/YewbZnoaVysMf6BxqyU7Xq3BrKxQLqUqQCLcBGAs/s640/nadya.vebiola_46129491_358583414972010_1613136529974146352_n.jpg' />";
 images[1] = "<img src='https://1.bp.blogspot.com/-_CLcenoRDpI/XRmvBd-ZHCI/AAAAAAAEU5k/oxzbOLjgvaAmPs0iBdliAxaPM4hhgocpgCLcBGAs/s640/nadya.vebiola_46690576_227171314875698_1215845675960796507_n.jpg' />";
