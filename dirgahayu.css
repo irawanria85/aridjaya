@@ -1,0 +1,254 @@
+/* ===========================
+CSS Popup
+=========================== */
+.info {border-color: #2196F3;color: dodgerblue}
+.info:hover {background: #2196F3;color: white;}
+.btn {background-color: #2196F3;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;margin: 4px 2px;cursor: pointer;}
+i {color: #ff2323;}
+input[type=name], select {width: 100%;padding: 12px 20px;margin: 4px 0;display: inline-block;border: 1px solid #ccc;border-radius: 2px;box-sizing: border-box}
+.box-name {text-align: center;font-size: 26px;line-height:1.2em;font-weight: bold}
+.box-name span {color:red;text-transform:capitalize}
+.box-name p {font-size:80%;color:red}
+
+/* ===========================
+Main Wrapper 
+=========================== */
+#wrapper-indzign{position:relative;max-width:770px;margin:0 auto;background:#fff;padding:10px 20px;overflow:hidden;box-shadow:0 0 0 20px rgba(0,0,0,0.02);}
+#main-wrapper-indzign{position:relative;float:left;padding:0;word-wrap:break-word;overflow:hidden;width:100%;}
+#content-wrapper-indzign{padding:0;margin:0}
+.section{margin:0}
+#minisite {padding:10px 0} 
+#lower-indzign {background:red;border-radius:10px;padding:10px;color:white;box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 3px} 
+#text-box {margin: 0 auto;padding: 10px 0} 
+.text-box p {text-align: center;padding:2px 0}
+.text-box span {color: white;padding: 2px 10px;line-height:normal;border-radius:20px;box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px}
+#text-merdeka {text-align:center;padding: 10px 0}
+#text-lower {font-size: 18px;font-weight: bold;text-align:center;margin: 10px;padding-bottom:20px}
+#image {margin: 15px auto;text-align: center}
+.image1{max-width:30%;height:auto;}
+.image2{max-width:70%;height:auto;}
+.image3{max-width:90%;height:auto;}
+
+/* ===========================
+Photo
+=========================== */
+#photo {display:block;overflow:hidden;position:relative;}
+#photo .widget {font-size:18px;font-weight:bold;text-align:center;color:red;}
+#photo img {border-radius: 10px}
+.photo-title {text-align:center}
+
+/* ===========================
+Blink
+=========================== */
+.blink {animation: blink-animation 0.7s steps(5, start) infinite;-webkit-animation: blink-animation 0.7s steps(5, start) infinite}
+@keyframes blink-animation {to {visibility: hidden;}}
+@-webkit-keyframes blink-animation {to {visibility: hidden;}
+}
+
+/* ===========================
+Header 
+=========================== */
+.header-indzign {background:red;padding:10px 0;text-align:center;margin:auto}
+.header-indzign .title {text-transform:uppercase;margin:0}
+.header-indzign .title a {display: block;position: relative;color:white;font-size:130%;color:white;font-weight:bold}
+.header-indzign .title a:before {font-size:70%;font-family:fontAwesome;color:white;padding:0 6px;content:&#39;\f137&#39;;}
+.header-indzign .title a:after {font-size:70%;font-family:fontAwesome;color:white;padding:0 6px;content:&#39;\f138&#39;;}
+
+/* ===========================
+Animations
+=========================== */
+.snow {text-align: center}
+.snow img {max-width:100%;height:100px}
+* {box-sizing:border-box;}
+@import url(http://fonts.googleapis.com/css?family=Concert+One);
+figure {animation:wobble 5s ease-in-out infinite;transform-origin:center center;transform-style:preserve-3d;}
+@keyframes wobble {
+0%,100%{ transform:rotate3d(1,1,0,40deg); }
+25%{ transform:rotate3d(-1,1,0,40deg); }
+50%{ transform:rotate3d(-1,-1,0,40deg); }
+75%{ transform:rotate3d(1,-1,0,40deg); }
+}
+h4 {padding-top: 25px;font:900 40px &#39;Concert One&#39;, sans-serif;text-align: center;text-transform:uppercase;display:block;width:100%;line-height:1.5;position:absolute;color:white;}
+
+/* ===========================
+Keyframes
+=========================== */
+@keyframes glow {
+0%,100%{ text-shadow:0 0 30px red; }
+25%{ text-shadow:0 0 30px orange; }
+50%{ text-shadow:0 0 30px forestgreen; }
+75%{ text-shadow:0 0 30px cyan; }
+}
+h4:nth-child(2){ transform:translateZ(5px); }
+h4:nth-child(3){ transform:translateZ(10px);}
+h4:nth-child(4){ transform:translateZ(15px); }
+h4:nth-child(5){ transform:translateZ(20px); }
+h4:nth-child(6){ transform:translateZ(25px); }
+h4:nth-child(7){ transform:translateZ(30p.rock{animation:infinite 1s rock}
+@keyframes rock {
+0% {transform: rotate(-1deg);}
+50% {transform: rotate(2deg);}
+100% {transform: rotate(-1deg);}}x); }
+h4:nth-child(8){ transform:translateZ(35px); }
+h4:nth-child(9){ transform:translateZ(40px); }
+h4:nth-child(10){ transform:translateZ(45px); }
+h4 {animation:glow 10s ease-in-out infinite;}
+.rock{animation:infinite 1s rock}
+@keyframes rock {
+0% {transform: rotate(-1deg);}
+50% {transform: rotate(2deg);}
+100% {transform: rotate(-1deg);}}
+.fuck{animation:infinite 1s fuck}
+@keyframes rock {  
+0% {transform: rotate(-2deg);}
+50% {transform: rotate(2deg);}
+100% {transform: rotate(-2deg);}}
+
+/* ===========================
+Keyframes
+=========================== */
+h5 {font-size: 38px;text-align: center;color:#ff2323;animation: rock infinite 1s;font-family: &#39;Indie Flower&#39;, cursive;letter-spacing: 2px;}
+h5 img {padding:20px 0;max-width:80%;height:auto;border-radius:50%}
+.rock{animation:infinite 1s rock}
+@keyframes rock {0%{transform: rotate(-1deg);  }
+50% {transform: rotate(2deg);}
+100% {transform: rotate(-1deg);}}
+.fuck{animation:infinite 1s fuck}
+@keyframes rock {
+0% {transform: rotate(-2deg);}
+50% {transform: rotate(2deg);}
+100% {transform: rotate(-2deg);}}
+
+/* ===========================
+Preloader
+=========================== */
+.cssload-preloader {margin: 0 auto;z-index: 10;width:100%;padding-top:20px}
+.cssload-preloaderes {margin: 0 auto;max-width:220px}
+.cssload-preloader &gt; .cssload-preloader-box {position: absolute;height: 16px;left: 50%;margin: -8px 0 0 -82px;perspective: 110px;-o-perspective: 110px;-ms-perspective: 110px;-webkit-perspective: 110px;-moz-perspective: 110px;}
+.cssload-preloader .cssload-preloader-box &gt; div {position: relative;width: 16px;height: 16px;background: rgb(204,204,204);float: left;text-align: center;line-height: 16px;font-family: Verdana;font-size: 11px;color: rgb(255,255,255);}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(1) {background: rgb(255,0,0);margin-right: 8px;animation: cssload-movement 690ms ease 0ms infinite alternate;-o-animation: cssload-movement 690ms ease 0ms infinite alternate;-ms-animation: cssload-movement 690ms ease 0ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 0ms infinite alternate;-moz-animation: cssload-movement 690ms ease 0ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(2) {background: rgb(255,0,0);margin-right: 8px;animation: cssload-movement 690ms ease 86.25ms infinite alternate;-o-animation: cssload-movement 690ms ease 86.25ms infinite alternate;-ms-animation: cssload-movement 690ms ease 86.25ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 86.25ms infinite alternate;-moz-animation: cssload-movement 690ms ease 86.25ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(3) {background: rgb(255,0,0);margin-right: 8px;animation: cssload-movement 690ms ease 172.5ms infinite alternate;-o-animation: cssload-movement 690ms ease 172.5ms infinite alternate;-ms-animation: cssload-movement 690ms ease 172.5ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 172.5ms infinite alternate;-moz-animation: cssload-movement 690ms ease 172.5ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(4) {background: rgb(204,255,0);margin-right: 8px;animation: cssload-movement 690ms ease 258.75ms infinite alternate;-o-animation: cssload-movement 690ms ease 258.75ms infinite alternate;-ms-animation: cssload-movement 690ms ease 258.75ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 258.75ms infinite alternate;-moz-animation: cssload-movement 690ms ease 258.75ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(5) {background: rgb(0,255,60);margin-right: 8px;animation: cssload-movement 690ms ease 345ms infinite alternate;-o-animation: cssload-movement 690ms ease 345ms infinite alternate;-ms-animation: cssload-movement 690ms ease 345ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 345ms infinite alternate;-moz-animation: cssload-movement 690ms ease 345ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(6) {background: rgb(0,185,252);margin-right: 8px;animation: cssload-movement 690ms ease 431.25ms infinite alternate;-o-animation: cssload-movement 690ms ease 431.25ms infinite alternate;-ms-animation: cssload-movement 690ms ease 431.25ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 431.25ms infinite alternate;-moz-animation: cssload-movement 690ms ease 431.25ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(7) {background: rgb(58,0,250);margin-right: 8px;animation: cssload-movement 690ms ease 517.5ms infinite alternate;-o-animation: cssload-movement 690ms ease 517.5ms infinite alternate;-ms-animation: cssload-movement 690ms ease 517.5ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 517.5ms infinite alternate;-moz-animation: cssload-movement 690ms ease 517.5ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(8) {background: rgb(255,255,0);margin-right: 8px;animation: cssload-movement 690ms ease 603.75ms infinite alternate;-o-animation: cssload-movement 690ms ease 603.75ms infinite alternate;-ms-animation: cssload-movement 690ms ease 603.75ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 603.75ms infinite alternate;-moz-animation: cssload-movement 690ms ease 603.75ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(9) {background: rgb(221,0,255);margin-right: 8px;animation: cssload-movement 690ms ease 690ms infinite alternate;-o-animation: cssload-movement 690ms ease 690ms infinite alternate;-ms-animation: cssload-movement 690ms ease 690ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 690ms infinite alternate;-moz-animation: cssload-movement 690ms ease 690ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(10) {background: rgb(51,102,255);margin-right: 8px;animation: cssload-movement 690ms ease 776.25ms infinite alternate;-o-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-ms-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-moz-animation: cssload-movement 690ms ease 776.25ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(11) {background: rgb(51,102,255);margin-right: 8px;animation: cssload-movement 690ms ease 776.25ms infinite alternate;-o-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-ms-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-moz-animation: cssload-movement 690ms ease 776.25ms infinite alternate;}
+.cssload-preloader .cssload-preloader-box &gt; div:nth-child(12) {background: rgb(51,102,255);margin-right: 8px;animation: cssload-movement 690ms ease 776.25ms infinite alternate;-o-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-ms-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-webkit-animation: cssload-movement 690ms ease 776.25ms infinite alternate;-moz-animation: cssload-movement 690ms ease 776.25ms infinite alternate;}
+@keyframes cssload-movement {
+from {transform: scale(1.0) translateY(0px) rotateX(0deg);box-shadow: 0 0 0 rgba(0,0,0,0);}
+to {transform: scale(1.5) translateY(-14px) rotateX(45deg);box-shadow: 0 14px 22px rgba(0,0,0,0.4);background: rgb(51,153,255);}
+}
+@-o-keyframes cssload-movement {
+from {-o-transform: scale(1.0) translateY(0px) rotateX(0deg);box-shadow: 0 0 0 rgba(0,0,0,0);}
+to {-o-transform: scale(1.5) translateY(-14px) rotateX(45deg);box-shadow: 0 14px 22px rgba(0,0,0,0.4);background: rgb(51,153,255);}
+}
+@-ms-keyframes cssload-movement {
+from {-ms-transform: scale(1.0) translateY(0px) rotateX(0deg);box-shadow: 0 0 0 rgba(0,0,0,0);}
+to {-ms-transform: scale(1.5) translateY(-14px) rotateX(45deg);box-shadow: 0 14px 22px rgba(0,0,0,0.4);background: rgb(51,153,255);}
+}
+@-webkit-keyframes cssload-movement {
+from {-webkit-transform: scale(1.0) translateY(0px) rotateX(0deg);box-shadow: 0 0 0 rgba(0,0,0,0);}
+to {-webkit-transform: scale(1.5) translateY(-14px) rotateX(45deg);box-shadow: 0 14px 22px rgba(0,0,0,0.4);background: rgb(51,153,255);}
+}
+@-moz-keyframes cssload-movement {
+from {-moz-transform: scale(1.0) translateY(0px) rotateX(0deg);box-shadow: 0 0 0 rgba(0,0,0,0);}
+to {-moz-transform: scale(1.5) translateY(-14px) rotateX(45deg);box-shadow: 0 14px 22px rgba(0,0,0,0.4);background: rgb(51,153,255);}
+}
+
+/* ===========================
+Proklamasi
+=========================== */
+#proklamasi {color: white;text-align: justify;margin-bottom: 20px}
+.catatan {font-weight:bold;text-align: center;padding: 20px 0}
+#dirgahayu {padding: 15px 0}
+.dirgahayu-red, .dirgahayu-white {line-height: normal;border-radius: 25px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 3px; margin: 5px auto; padding: 5px 15px;width: 90%}
+.dirgahayu-red {background: red;color: white}
+.dirgahayu-white {background: white; color: red}
+
+/* ==========================
+BANNER
+=========================== */
+.banner,.banner2,.banner3 {margin:0 auto;text-align:center;overflow:hidden;padding: 20px 0}
+.banner h2,.banner2 h2,.banner3 h2 {display:none;overflow:hidden}
+.banner .widget, .banner2 .widget, .banner3 .widget {width:100%;max-width:100%;margin:0 auto;text-align:center;overflow:hidden}
+.banner img,.banner iframe,.banner2 img,.banner2 iframe,.banner3 img,.banner2 iframe{display:block;margin:0 auto;text-align:center;overflow:hidden}
+@media screen and (max-width:728px){
+.banner .widget,.banner2 .widget,.banner3 .widget{padding:0}
+}
+
+/* =============================
+Sender
+============================= */
+.sender {text-transform: uppercase;font-weight:bold;text-align:center;padding:15px 0}
+
+/* ============================
+Share button 
+============================ */
+@media screen and (min-width:480px){
+#adsku{display:none}
+}
+@media screen and (max-width:480px){
+#adsku{position:fixed;bottom:0;min-height:50px;margin:0 auto;background-color:#f9f9f9;width:100%;text-align:center;z-index:9999}
+}
+.label-line, .label-line-c {position:relative;}
+.label-line-c {text-align: center;margin-bottom: 6px;}
+.label-line::before, .label-line-c::before {z-index: 1;content: &quot;&quot;;width: 100%;height: 2px;background: #eee;position: absolute;top: 50%;left: 0;margin-top: -2px;}
+.share-this-pleaseeeee {display: inline-block;margin: 0;text-transform: capitalize;font-size: 18px;background: #fff;z-index: 1;position: relative;padding: 0 10px;color: #777;text-transform: uppercase}
+#share-container {margin: 20px auto 30px;overflow: hidden;}
+#share {background: #25d366;width: 100%;text-align: center;border-radius:50px}
+#share a {padding: 20px 0;color: white;font-weight: bold;display: block;font-size: 30px;transition: opacity 0.15s linear}
+#share a:hover, #share-mobile a:hover {opacity: 0.8;}
+#share-mobile {width: 100%;text-align: center;padding: 5px 10px;z-index:99999}
+#share-mobile a {display: inline-block;padding:10px;border-radius:50px;box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px}
+#share i, #share a, #share-mobile i, #share-mobile a {font-size: 30px;position: relative;color: #fff}
+#share-mobile .whatsapp {width: 75%;background: #25d366;}
+#share-mobile .fb {width: 15%;background: blue}
+@media screen and (max-width:480px){
+#share-container {display:none}
+}
+
+/* ===========================
+Refresh
+=========================== */
+#refresh {width: max-content;margin: 0 auto;padding: 10px 10px 20px}
+#refresh a:hover {background: #0062ff}
+#refresh a {background: #4d90fe;padding: 10px 40px;border-radius: 25px;font-size: 18px;color: #fff;box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px}
+#refresh i {color: #fff}
+
+/* ===========================
+My Link
+=========================== */
+#mylink {padding:10px;width: fit-content;margin: 0 auto;color: #fff;}
+#mylink i {color: #fff}
+.syantik {text-align:center;margin:10px 0;background: #fec14d;padding: 5px;box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px}
+.tampan {background: #fd4424;padding: 5px;box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px}
+.pramuka {background: brown;padding: 5px;box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px}
+.syantik:hover, .tampan:hover, .pramuka:hover {background: #333}
+
+/* ===========================
+Footer 
+=========================== */
+#indonesia {position:relative;padding:10px 0 20px;display:block;overflow:hidden;text-align:center;color:#999;font-weight:normal}
+#footer-bg{margin:0 auto;width:100%}#footer-bg a:link,#footer-bg a:visited,#footer-bg a:hover{color:#fff;text-decoration:none}#footer{font-size:90%;margin:0 auto;padding:7px 10px;color:#fff;background:#1abc9c}#footer2{font-size:90%;text-align:center;margin:0 auto;padding:15px 20px;color:#ecf0f1;background:#3d566e}#footer a{color:#ecf0f1}#prikitiw {float:right;}
+
+/* ===========================
+Responsive 
+=========================== */
+@media only screen and (max-width:800px){
+#footerindzign{margin-bottom:0}
+#footer-indzign{width:100%}
+img,video,object{max-width:100%}
+#main-wrapper-indzign{width:100%;padding:10px}
+#wrapper-indzign{padding:0}
+#main{padding:0 10px}
+#main-wrapper-indzign,#wrapper-indzign{border:none} 
+#minisite{padding:0}
+}
+@media screen and (max-width:640px){
+#footer2{display:block;text-align:center;}
+#prikitiw{float:none;display:block;}
+}
