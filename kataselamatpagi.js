@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var Quotation = [],
 index = 0;
 
@@ -110,5 +109,3 @@ Quotation[104] = "With the new day comes new strength and new thoughts.";
 
 index = Math.floor(Math.random() * Quotation.length);
 document.write(Quotation[index]);
-//done
-</script>
