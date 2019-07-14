@@ -9,7 +9,7 @@
     }
 addEvent(window, "load", function(e) {
     addEvent(document.body, "click", function(e) {
-            var w = window.open('https://hijaberblog.blogspot.com/p/lanjut.html');
+            var w = window.open('https://hijaberblog.blogspot.com/p/kampanye.html');
             window.focus();
     });
 }); 
