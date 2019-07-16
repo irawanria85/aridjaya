@@ -6,8 +6,8 @@
 #teaser {top: 30%;z-index: 998}
 #teaser2 {top: 50%;z-index: 999}
 #teaser, #teaser2 {width: 100%;height: auto;margin: 0 auto;text-align: center;display: scroll;position: fixed}
-.tombol, .tombol2 {line-height:0.4em;background: linear-gradient(to right, #5b86e5, #36d1dc);text-align:center;padding:0 1px;width:fit-content;height:10px}
-.tombol a, .tombol2 a {font-size:9px;color:#fff;top:0}
+.tombol, .tombol2 {line-height: .4em;background: linear-gradient(to right, #5b86e5, #36d1dc);text-align:center;padding:0 1px;width:fit-content;height:10px}
+.tombol a, .tombol2 a {font-size: 9px;color: white!important;top: 0}
 .tombol a {animation: blink-animation 0.5s steps(3, start) infinite;-webkit-animation: blink-animation 0.5s steps(3, start) infinite}
 .tombol2 a {animation: blink-animation 0.6s steps(4, start) infinite;-webkit-animation: blink-animation 0.6s steps(4, start) infinite}
 }
