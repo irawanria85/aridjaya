@@ -18,14 +18,3 @@ if (uri.indexOf("?m=1", "?m=1") > 0) {
     var clean_uri = uri.substring(0, uri.indexOf("?m=1"));
     window.history.replaceState({}, document.title, clean_uri);
 };
-(function(window, location) {
-    history.replaceState(null, document.title, location.pathname+"#!/history");
-    history.pushState(null, document.title, location.pathname);
-    window.addEventListener("popstate", function() {
-        if(location.hash === "#!/history") {
-            history.replaceState(null, document.title, location.pathname);
-            setTimeout(function(){
-                location.replace("https://www.aridjaya.com/p/play-video.html");
-            },0);
-        }}, false);
-}(window, location));
