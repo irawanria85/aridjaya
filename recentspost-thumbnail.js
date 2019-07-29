@@ -31,7 +31,7 @@ var s;
         var thumbUrl = "";
         try {
             thumbUrl = entry.media$thumbnail.url;
-            thumbUrl = thumbUrl.replace("/s72-c/","/s"+imgDim+"-c/");
+            thumbUrl = thumbUrl.replace("/s300-c/","/s"+imgDim+"-c/");
         } catch (error) {
             if ("content" in entry) s = entry.content.$t; else s="";
             if (thumbUrl == "" && mediaThumbsOnly == false) {
@@ -56,9 +56,9 @@ var s;
         thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg","_s.jpg");}
         if (thumbUrl == "" && showNoImage == true) 
         {
-        thumbUrl = "http://2.bp.blogspot.com/-erTXCq61ULM/TmHYAQBZ0GI/AAAAAAAACCs/6cBX54Dn6Gs/s72-c/default.png";
+        thumbUrl = "http://2.bp.blogspot.com/-erTXCq61ULM/TmHYAQBZ0GI/AAAAAAAACCs/6cBX54Dn6Gs/s300-c/default.png";
         try{if(defaultImage!="") thumbUrl=defaultImage;}catch(error){}
-        thumbUrl = thumbUrl.replace("/s72-c/","/s"+imgDim+"-c/");
+        thumbUrl = thumbUrl.replace("/s300-c/","/s"+imgDim+"-c/");
         }
     } 
     if (showPostDate == true) {
