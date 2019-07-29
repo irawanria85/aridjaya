@@ -1,11 +1,12 @@
 var Quotation = [],
 index = 0;
 
+Quotation[0] = "Tidak pernah ada malam atau masalah yang bisa mengalahkan pagi dan harapan";
 Quotation[1] = "Aku melihat wanita yang kuat dari dalam dirimu, hadapi hari ini dengan semangat sahabatku!";
 Quotation[2] = "As we arise each morning, let us determine to respond with love and kindness to whatever might come our way.";
 Quotation[3] = "Awali hari dengan senyuman! Selamat beraktivitas";
 Quotation[4] = "Awali pagi dengan kopi pahit, agar harimu terasa manis";
-Quotation[5] = "Awali pagi dengan senyum dan inspirasi dengan kata kata ucapan selamat pagi inspiratif dari Canva. Daftar sekarang, buat dan bagikan!";
+Quotation[5] = "Awali pagi dengan senyum dan inspirasi dengan ucapan selamat pagi";
 Quotation[6] = "Awali pagi dengan senyuman, sehingga semangat menjalani hari";
 Quotation[7] = "Awali pagimu dengan rasa sayang. Sayang dengan diri sendiri, sayang dengan orang di sekitarmu. Tebarkan senyum manis yang gembira";
 Quotation[8] = "Bangun pagilah seperti telah terlahir kembali dari masa lalu yang kelam. Selamat pagi";
@@ -32,7 +33,7 @@ Quotation[28] = "Harapan selalu ada bagi yang beriman, jangan lupa ucapkan syuku
 Quotation[29] = "Hari ini akan menjadi hari terbaikmu, jangan lupa senyum!";
 Quotation[30] = "Hari ini saya lebih diberkati dari hari kemarin, selamat pagi dunia!";
 Quotation[31] = "Hari kemarin bagaimanapun baik atau buruknya, telah berlalu. Selamat Pagi!";
-Quotation[32] = "Hari kemarin bagaimanapun baik atau buruknya, telah berlalu. Selamat Pagi!";
+Quotation[32] = "When you arise in the morning, think of what a precious privilege it is to be alive—to breathe, to think, to enjoy, to love—then make that day count!";
 Quotation[33] = "Hidup harusnya dipenuhi oleh rasaya syukur, karena masih diberikan matahari pagi";
 Quotation[34] = "Hidup terlalu pendek, ia panik, aku ingin lebih. Ia mengangguk pelan, bangun lebih pagi.";
 Quotation[35] = "Hidup untuk mencari kesempurnaan akan menjadikan diri tertekan. Jadi syukurilah hari barumu yang dihiasi mentari pagi";
@@ -40,7 +41,7 @@ Quotation[36] = "Hiduplah dan bangunlah pagi ini juga tanpa ada rasa kebencian, 
 Quotation[37] = "I get up every morning and it’s going to be a great day. You never know when it’s going to be over so I refuse to have a bad day.";
 Quotation[38] = "I never wake up in the morning and wonder why I am here. I wake up and wonder why I am not making here better.";
 Quotation[39] = "It’s a new day. Yesterday’s failure is redeemed at the sunrise.";
-Quotation[40] = "Jangan lewatkan momen membagi semangatmu ini. Bagikan ucapan selamat pagi dari Canva kepada keluarga, sahabat, kolega kantor dan teman media sosialmu sekarang!";
+Quotation[40] = "Jangan lewatkan momen membagi semangatmu ini. Bagikan ucapan selamat pagi kepada keluarga, sahabat, kolega kantor dan teman media sosialmu sekarang!";
 Quotation[41] = "Jangan pernah menunggu sore hari, kejarlah mimpimu semenjak pagi.";
 Quotation[42] = "Janganlah menunggu kajaiban dunia untuk memulai pagi ini, bangunlah dan bergegaslah karena hari ini juga adalah milik anda, semangat pagi dan selamat pagi.";
 Quotation[43] = "Jika kamu bersyukur dan bersyukur saat kamu terbangun di pagi hari, maka kebahagiaan akan keluar dari dalam dirimu.";
@@ -56,7 +57,7 @@ Quotation[52] = "Lihatlah hal positif setiap harinya, walaupun terkadang kita ha
 Quotation[53] = "Malam telah berlalu, bintang kian meredup. Matahari memancarkan sinarnya, untuk kehidupan yang lebih baik. Selamat Pagi";
 Quotation[54] = "Mari awali pagi hari dengan hati yang bersuka cita tanpa ada rasa benci";
 Quotation[55] = "Mari awali pagi ini dengan penuh kepedulian, peduli dengan diri sendiri dan peduli akan semua yang ada di sekitar kita. Selamat pagi semoga hari anda menyenangkan.";
-Quotation[56] = "Mari awali pagi ini dengan penuh kepedulian, peduli dengan diri sendiri dan peduli akan semua yang ada di sekitar kita. Selamat pagi semoga hari anda menyenangkan.";
+Quotation[56] = "With the new day comes new strength and new thoughts.";
 Quotation[57] = "Matahari yang hangat, selalu mengingatkanku padamu. Selamat pagi";
 Quotation[58] = "Memulai hari dengan membuka dua hadiah terbaik pagi ini: mataku";
 Quotation[59] = "Mentari pagi lemparkan senyuman, selamat pagi sayang!";
@@ -101,11 +102,6 @@ Quotation[97] = "Tersenyumlah di depan cermin. Lakukan setiap pagi dan kau akan 
 Quotation[98] = "Tersenyumlah lepas, biarlah semua dunia tahu. Bahwa kamu lebih dasyat dari hari kemarin";
 Quotation[99] = "Tetesan embun di pagi hari yang selalu menyejukkan hati, menenangkan segala hasrat serta jiwa menentramkan segala jiwa.";
 Quotation[100] = "Tidak ada yang lebih indah dari pagi hari. Ketenangannya, kicauan burung, serta hangatnya sinar matahari yang terbit. Merupakan momen paling tepat untuk memperbaharui semangat, motivasi serta pikiran.";
-Quotation[101] = "Tidak pernah ada malam atau masalah yang bisa mengalahkan pagi dan harapan";
-Quotation[102] = "Ucapan selamat pagi paling inspiratif dari Canva";
-Quotation[103] = "When you arise in the morning, think of what a precious privilege it is to be alive—to breathe, to think, to enjoy, to love—then make that day count!";
-Quotation[104] = "With the new day comes new strength and new thoughts.";
-
 
 index = Math.floor(Math.random() * Quotation.length);
 document.write(Quotation[index]);
