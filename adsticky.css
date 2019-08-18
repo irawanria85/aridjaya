@@ -1,0 +1,7 @@
+@media screen and (min-width:480px){
+#adsticky-top, #adsticky-bottom {display: none}
+}
+@media screen and (max-width:480px){
+#adsticky-top {display: block;opacity:.5;position:fixed;top:0;min-height:0px;margin:0 auto;background-color:#ececec;width:100%;text-align:center;z-index:9998}
+#adsticky-bottom {display: block;opacity:.5;position:fixed;bottom:0;min-height:0px;margin:0 auto;background-color:#ececec;width:100%;text-align:center;z-index:9997}
+}
