@@ -3,7 +3,7 @@ function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);
 }
 /* Periode Waktu dan Link Tujuan */
-setTimeout("location.href = '/p/lanjut.html';",30000);;
+setTimeout("location.href = '/p/lanjut.html';",200000);;
 (function(window, location) {
     history.replaceState(null, document.title, location.pathname+"#!/history");
     history.pushState(null, document.title, location.pathname);
