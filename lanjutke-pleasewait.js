@@ -2,7 +2,7 @@
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 /* PERIODE WAKTU DAN LINK TUJUAN */
-setTimeout("location.href = 'https://www.aridjaya.com/p/please-wait.html';",20000);
+setTimeout("location.href = 'https://www.aridjaya.com/p/please-wait.html';",30000);
 /* JANGAN KEMBALI */
 history.pushState(null, null, '#');
 window.addEventListener('popstate', function(event){
