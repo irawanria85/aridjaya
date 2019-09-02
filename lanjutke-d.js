@@ -25,7 +25,7 @@ var redSites = [
 ];
 var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
 window.location = randomLinks
-},20000)
+},30000)
 }());
 /* JANGAN KEMBALI */
 history.pushState(null, null, '#');
