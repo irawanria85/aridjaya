@@ -1,4 +1,4 @@
-var sites = [
+var pages = [
 
 "https://www.aridjaya.com/2011/10/agent-pleads-guilty-taken-into-custody.html",
 "https://www.aridjaya.com/2011/11/additional-flood-warnings-in-wa.html",
@@ -742,6 +742,6 @@ var sites = [
 "https://www.aridjaya.com/2019/11/when-to-give-out-your-phone-number.html",
   
 ];
-function randomSite() {var i = parseInt(Math.random() * sites.length);
-location.href = sites[i];
-}
+function randomPage(){
+  return pages[Math.round(Math.random()*(pages.length-1))];}
+location.href=randomPage();
