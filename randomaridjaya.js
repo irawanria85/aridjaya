@@ -721,7 +721,26 @@ var sites = [
 "https://www.aridjaya.com/2019/10/will-she-ever-fall-in-love-with-me-here.html",
 "https://www.aridjaya.com/2019/10/win-her-heart-3-love-tips-for-men.html",
 "https://www.aridjaya.com/2019/10/writing-great-love-letter-for-him.html",
-
+"https://www.aridjaya.com/2019/11/4-fun-outdoor-dating-ideas-with.html",
+"https://www.aridjaya.com/2019/11/4-reasons-not-to-put-your-childrens.html",
+"https://www.aridjaya.com/2019/11/5-mistakes-men-make-with-online-dating.html",
+"https://www.aridjaya.com/2019/11/5-tips-before-you-reply-to-online.html",
+"https://www.aridjaya.com/2019/11/8-common-mistakes-women-make-with.html",
+"https://www.aridjaya.com/2019/11/can-you-fall-in-love-online.html",
+"https://www.aridjaya.com/2019/11/dating-and-talking-about-ex-partner.html",
+"https://www.aridjaya.com/2019/11/examples-of-bad-online-dating-profile.html",
+"https://www.aridjaya.com/2019/11/examples-of-good-online-dating-profile.html",
+"https://www.aridjaya.com/2019/11/free-or-paid-online-dating.html",
+"https://www.aridjaya.com/2019/11/great-literary-date-ideas.html",
+"https://www.aridjaya.com/2019/11/how-to-write-headlines-for-online.html",
+"https://www.aridjaya.com/2019/11/online-dating-be-thick-skinned.html",
+"https://www.aridjaya.com/2019/11/online-dating-tips-getting-started.html",
+"https://www.aridjaya.com/2019/11/passive-or-active-online-dating.html",
+"https://www.aridjaya.com/2019/11/rules-for-developing-online-dating.html",
+"https://www.aridjaya.com/2019/11/top-10-tips-for-building-loving.html",
+"https://www.aridjaya.com/2019/11/what-is-online-dating-beginners-guide.html",
+"https://www.aridjaya.com/2019/11/when-to-give-out-your-phone-number.html",
+  
 ];
 function randomSite() {var i = parseInt(Math.random() * sites.length);
 location.href = sites[i];
