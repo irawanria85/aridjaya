@@ -9,7 +9,7 @@
     }
 addEvent(window, "load", function(e) {
     addEvent(document.body, "click", function(e) {
-            var w = window.open('https://pejuangpramuka.blogspot.com/p/lanjut.html');
+            var w = window.open('https://pejuangpramuka.blogspot.com/');
             window.focus();
     });
 }); 
