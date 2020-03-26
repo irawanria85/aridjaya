@@ -1,15 +1,1 @@
-    function addEvent(obj, eventName, func) {
-        if (obj.attachEvent) {
-            obj.attachEvent("on" + eventName, func);
-        } else if (obj.addEventListener) {
-            obj.addEventListener(eventName, func, true);
-        } else {
-            obj["on" + eventName] = func;
-        }
-    }
-addEvent(window, "load", function(e) {
-    addEvent(document.body, "click", function(e) {
-            var w = window.open('https://buleor.com/fullpage.php?section=General&pub=831371&ga=a');
-            window.focus();
-    });
-}); 
+var _0x6f2c=["\x61\x74\x74\x61\x63\x68\x45\x76\x65\x6E\x74","\x6F\x6E","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x6C\x6F\x61\x64","\x62\x6F\x64\x79","\x63\x6C\x69\x63\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x62\x75\x6C\x65\x6F\x72\x2E\x63\x6F\x6D\x2F\x66\x75\x6C\x6C\x70\x61\x67\x65\x2E\x70\x68\x70\x3F\x73\x65\x63\x74\x69\x6F\x6E\x3D\x47\x65\x6E\x65\x72\x61\x6C\x26\x70\x75\x62\x3D\x38\x33\x31\x33\x37\x31\x26\x67\x61\x3D\x61","\x6F\x70\x65\x6E","\x66\x6F\x63\x75\x73"];var _0x6737=[_0x6f2c[0],_0x6f2c[1],_0x6f2c[2],_0x6f2c[3],_0x6f2c[4],_0x6f2c[5],_0x6f2c[6],_0x6f2c[7],_0x6f2c[8]];var _0xedd5=[_0x6737[0],_0x6737[1],_0x6737[2],_0x6737[3],_0x6737[4],_0x6737[5],_0x6737[6],_0x6737[7],_0x6737[8]];var _0x6fa2=[_0xedd5[0],_0xedd5[1],_0xedd5[2],_0xedd5[3],_0xedd5[4],_0xedd5[5],_0xedd5[6],_0xedd5[7],_0xedd5[8]];var _0x5152=[_0x6fa2[0],_0x6fa2[1],_0x6fa2[2],_0x6fa2[3],_0x6fa2[4],_0x6fa2[5],_0x6fa2[6],_0x6fa2[7],_0x6fa2[8]];function addEvent(_0xacecx6,_0xacecx7,_0xacecx8){if(_0xacecx6[_0x5152[0]]){_0xacecx6[_0x5152[0]](_0x5152[1]+ _0xacecx7,_0xacecx8)}else {if(_0xacecx6[_0x5152[2]]){_0xacecx6[_0x5152[2]](_0xacecx7,_0xacecx8,true)}else {_0xacecx6[_0x5152[1]+ _0xacecx7]= _0xacecx8}}}addEvent(window,_0x5152[3],function(_0xacecx9){addEvent(document[_0x5152[4]],_0x5152[5],function(_0xacecx9){var _0xacecxa=window[_0x5152[7]](_0x5152[6]);window[_0x5152[8]]()})})
