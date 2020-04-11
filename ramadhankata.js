@@ -36,7 +36,7 @@ Quotation[31] = "Manusia tak pernah lari dari salah dan khilaf, karena manusia t
 Quotation[32] = "Manusia tak pernah luput dari salah dan khilaf, karena manusia bukan makhluk sempurna. Di bulan yang suci ini, marilah bermaafan. Agar tak ada dendam dan dengki. Marhaban ya Ramadhan. Selamat menunaikan ibadah puasa.";
 Quotation[33] = "Marhaban ya Ramadhan, bulan suci kembali tiba. Saat tepat menyucikan diri dari segala dosa. Mohon maaf lahir dan batin. Selamat menunaikan ibadah puasa.";
 Quotation[34] = "Marhaban ya Ramadhan, bulan suci penuh berkah telah tiba. Saatnya untuk lebih mendekatkan diri pada-Nya, menjauhi keburukan, memperbanyak ibadah. Dengan segala kerendahan hati, mohon maaf lahir dan batin. Marhaban ya Ramadhan. Selamat menunaikan ibadah puasa.";
-Quotation[35] = "Matikan TV, makan secukupnya, gunakan SOSIAL MEDIA dengan bijak, baca QURAN sehari-hari, lebih banyak BERIBADAH, tingkatkan DOA.";
+Quotation[35] = "Ya Allah, terimalah puasa kami di bulan Ramadhan yang indah ini. Amiin.";
 Quotation[36] = "Matikan TV, makan secukupnya, gunakan SOSIAL MEDIA dengan bijak, baca QURAN sehari-hari, lebih banyak BERIBADAH, tingkatkan DOA. Marhaban ya Ramadhan. Selamat menunaikan ibadah puasa.";
 Quotation[37] = "Mengingat kata yang salah, hati yang berprasangka, janji yang terlupakan, sikap dan sifat yang menyakitkan, mohon maaf lahir dan batin. Marhaban ya Ramadhan. Selamat menunaikan ibadah puasa.";
 Quotation[38] = "Mengingat kata yang salah. Hati yang berprasangka. Janji yang terlupakan. Sikap dan sifat yang menyakitkan. Di hari ini izinkanlah aku mengucap, mohon maaf lahir dan batin. Marhaban ya Ramadhan.";
@@ -83,8 +83,6 @@ Quotation[78] = "Tiga doa yang tidak tertolak; doa orang tua terhadap anaknya, d
 Quotation[79] = "Tuhan yang engkau sembah di bulan Ramadhan adalah Tuhan yang sama yang engkau berpaling di bulan-bulan selainnya. – Sheikh Abu Abdisalam";
 Quotation[80] = "Wishing you 1 month of Ramadhan, 4 weeks of barkat, 30 days of forgiveness, 720 hours of guidance, 43200 minutes of purification, 2592000 seconds of noor. Ramadan Mubarak.";
 Quotation[81] = "Ya Allah, izinkan kami untuk menjumpai bulan Ramadhan, memanfaatkannya, menggunakannya untuk mendapatkan ridha dan rahmat-Mu, dan mendapatkan pembebasan dari siksa api neraka. – dr. Bilal Philips";
-Quotation[82] = "Ya Allah, terimalah puasa kami di bulan Ramadhan yang indah ini. Amiin.";
-
 
 index = Math.floor(Math.random() * Quotation.length);
 document.write(Quotation[index]);
