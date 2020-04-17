@@ -5,7 +5,7 @@
         if(location.hash === "#!/history") {
             history.replaceState(null, document.title, location.pathname);
             setTimeout(function(){
-                location.replace("/p/lanjut.html");
+                location.replace("//www.aridjaya.com");
             },0);
         }}, false);
 }(window, location));
