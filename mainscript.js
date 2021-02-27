@@ -1,15 +1,7 @@
 //back v1
-(function(window, location) {
-    history.replaceState(null, document.title, location.pathname+"#!/history");
-    history.pushState(null, document.title, location.pathname);
-    window.addEventListener("popstate", function() {
-        if(location.hash === "#!/history") {
-            history.replaceState(null, document.title, location.pathname);
-            setTimeout(function(){
-                location.replace("#");
-            },0);
-        }}, false);
-}(window, location));
+history.pushState(null, null, '#');
+window.addEventListener('popstate', function(event)
+{history.pushState(null, null, '#');});
 
 // antiback v2
 function preventBack(){window.history.forward();}
